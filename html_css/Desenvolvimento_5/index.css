@@ -2,9 +2,8 @@
     font-family: 'Maven Pro', sans-serif;
 }
 
-header {    
-    background-color: rgb(134, 161, 187);
-    display: flex;
+header {
+    display: block;
     justify-content: space-between;
     padding: 8px;
     margin-bottom: 10px;
@@ -13,12 +12,8 @@ header {
     text-align: center;
 }
 
-/* nav {
-    background-color: lightgray;
-} */
-
 ul {
-    display: flex;
+    display: ruby-text;
     height: 100%; 
 }
 
@@ -29,9 +24,11 @@ nav ul li {
     margin-left: 20px;
 
 }
+
 a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-size: x-large;
 }
 
 header img{
@@ -39,7 +36,33 @@ header img{
 }
 
 body {
-    width: 600px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
+}
+
+main h1, h2{
+    text-align: center;
+}
+
+main section{
+    display: block;
+}
+ img{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    font-size: x-large;
+    text-align: center;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer ul li img{
+    vertical-align: top;
+    width: 3%;
 }
