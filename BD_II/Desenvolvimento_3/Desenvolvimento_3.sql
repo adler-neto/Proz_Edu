@@ -26,3 +26,14 @@ END $$
 
 DELIMITER ;
 
+-- Executando a Procedure
+CALL RelatorioDiarioVendas();
+
+
+-- A saída dessa PROCEDURE pode ser algo como:
+
+-- Data	        ProdutoID	   ProdutoNome	    QuantidadeVendida
+-- 2024-08-01	        1	        Produto A	        2
+-- 2024-08-02	        2	        Produto B	        1
+-- 2024-08-03	        3	        Produto C	        5
+-- 2024-08-04	        1	        Produto A	        3
