@@ -1,0 +1,23 @@
+No ano de 2022, diversas empresas sofreram tentativas de ataques cibernéticos que poderiam impactar 
+diretamente a segurança dos dados. Portanto, é recomendado que funcionários e clientes de lojas virtuais
+sempre mantenham suas senhas de acesso atualizadas, alterando-as a cada três meses. Pensando nisso,
+cite pelo menos três métodos para melhorar essas senhas, com foco em fortalecê-las.
+
+Para fortalecer senhas e aumentar a segurança contra ataques cibernéticos, especialmente em lojas virtuais, é fundamental que tanto os funcionários quanto os clientes adotem boas práticas ao criar e gerenciar suas senhas. Aqui estão três métodos essenciais para melhorar a força das senhas:
+
+1. Use Senhas Longas e Complexas
+Comprimento: A senha deve ter, no mínimo, 12 a 16 caracteres. Senhas mais longas são muito mais difíceis de serem quebradas por ataques de força bruta.
+Complexidade: Incluir uma combinação de letras maiúsculas e minúsculas, números e caracteres especiais (como !, @, #, $, %).
+Exemplo: Uma senha como 7R&cD!9xW3$PaQ é significativamente mais segura do que Senha123.
+2. Evite Usar Informações Pessoais ou Comuns
+Evitar Informações Pessoais: Não use nomes, datas de nascimento, números de telefone ou outras informações pessoais fáceis de adivinhar.
+Evitar Palavras Comuns e Sequências: Senhas como password, 123456, ou abcdef são extremamente comuns e vulneráveis a ataques de dicionário. Prefira criar senhas sem relação direta com palavras ou padrões comuns.
+3. Use um Gerenciador de Senhas
+Gerenciamento: Utilize um gerenciador de senhas para gerar e armazenar senhas únicas e complexas para cada conta. Isso evita a necessidade de memorizar senhas complexas e reduz a tentação de reutilizar a mesma senha em múltiplos serviços.
+Segurança Adicional: Gerenciadores de senhas também podem alertar sobre senhas fracas ou comprometidas, sugerindo atualizações regulares.
+Outros Métodos Complementares:
+Autenticação Multifator (MFA): Além de fortalecer a senha, implementar a autenticação multifator (MFA) adiciona uma camada extra de segurança, exigindo um segundo fator de autenticação, como um código enviado para o celular ou um token de autenticação.
+
+Alteração Regular de Senhas: Mesmo com senhas fortes, é uma boa prática alterá-las periodicamente, como a cada três meses, para reduzir o risco de exposição prolongada em caso de comprometimento.
+
+Seguindo essas práticas, a segurança das contas será significativamente aumentada, dificultando o sucesso de ataques cibernéticos e protegendo melhor as informações pessoais e corporativas.

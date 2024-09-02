@@ -1,0 +1,59 @@
+Após uma varredura rápida no sistema de banco de dados de uma empresa de vendas, 
+identificamos a necessidade de melhorar a segurança dessas informações. Por isso, 
+será necessário desenvolver um novo banco para armazenar os dados mais importantes, 
+como detalhes dos clientes, valores faturados diariamente e informações sobre os produtos, 
+além de outros. Sendo assim, explique quais são os pilares da segurança de dados que devem ser 
+seguidos para que o novo banco seja bem projetado e funcione corretamente
+
+Ao projetar um banco de dados seguro para armazenar informações sensíveis, como detalhes dos clientes, valores faturados e informações sobre produtos, é fundamental seguir os pilares da segurança da informação. Esses pilares garantem que os dados estejam protegidos contra ameaças, sejam acessíveis apenas por quem deve ter acesso e estejam disponíveis quando necessário. Os principais pilares da segurança de dados são:
+
+1. Confidencialidade
+A confidencialidade garante que os dados sejam acessíveis apenas por pessoas autorizadas. No contexto de um banco de dados, isso implica:
+
+Controle de Acesso: Implementar políticas de controle de acesso rigorosas, onde apenas usuários autorizados podem acessar, modificar ou visualizar dados específicos. Isso pode ser feito usando privilégios de usuário, funções (roles) e permissões específicas.
+
+Criptografia: Criptografar dados sensíveis, tanto em trânsito quanto em repouso. Isso protege informações críticas, como detalhes de clientes e transações financeiras, contra acessos não autorizados.
+
+Autenticação e Autorização: Implementar autenticação forte, como autenticação multifator (MFA), para garantir que apenas usuários legítimos possam acessar o sistema. A autorização, por sua vez, garante que esses usuários possam acessar apenas os dados relevantes para suas funções.
+
+2. Integridade
+A integridade assegura que os dados armazenados sejam precisos e não alterados de maneira não autorizada. Para manter a integridade dos dados:
+
+Controle de Versão e Logs de Auditoria: Registrar todas as alterações feitas no banco de dados. Os logs de auditoria permitem rastrear quem alterou o quê e quando, o que é essencial para a detecção de alterações não autorizadas.
+
+Checks e Constraints: Utilizar constraints no banco de dados para garantir que os dados inseridos estejam corretos e sigam regras predefinidas (por exemplo, chaves estrangeiras, valores únicos, etc.).
+
+Transações ACID: Assegurar que todas as operações do banco de dados sigam as propriedades ACID (Atomicidade, Consistência, Isolamento, Durabilidade). Isso garante que as transações sejam concluídas corretamente e que os dados não fiquem em um estado inconsistente após uma falha.
+
+3. Disponibilidade
+A disponibilidade garante que os dados estejam acessíveis para os usuários autorizados sempre que necessário. Para garantir alta disponibilidade:
+
+Redundância e Backup: Implementar sistemas de backup regulares e redundância, como replicação de banco de dados ou servidores em cluster, para evitar a perda de dados em caso de falha de hardware ou desastres.
+
+Plano de Recuperação de Desastres: Desenvolver e testar um plano de recuperação de desastres para garantir que o sistema possa ser rapidamente restaurado em caso de falha catastrófica.
+
+Monitoramento e Escalabilidade: Monitorar constantemente a performance do banco de dados e escalar a infraestrutura conforme necessário para evitar downtime devido a sobrecarga de recursos.
+
+4. Autenticidade
+A autenticidade envolve garantir que os dados são o que afirmam ser e que vêm de uma fonte confiável. Isso pode ser implementado através de:
+
+Assinaturas Digitais e Certificados: Utilizar assinaturas digitais para garantir que os dados não foram alterados e que a fonte dos dados é autêntica.
+
+Autenticação de Origem: Garantir que apenas fontes confiáveis possam enviar dados para o banco de dados, evitando a inserção de dados fraudulentos.
+
+5. Auditoria
+A auditoria é o processo de revisão e monitoramento contínuo do acesso e uso dos dados:
+
+Log de Atividades: Manter logs detalhados de todas as operações de banco de dados, incluindo acessos, inserções, atualizações e exclusões de dados. Isso facilita a detecção de atividades suspeitas.
+
+Revisões Regulares de Segurança: Realizar revisões regulares de segurança para identificar vulnerabilidades no sistema e corrigi-las antes que sejam exploradas.
+
+6. Privacidade
+A privacidade está relacionada à proteção das informações pessoais dos indivíduos:
+
+Compliance com Regulamentos: Assegurar que o banco de dados esteja em conformidade com regulamentações de proteção de dados, como o GDPR (Regulamento Geral sobre a Proteção de Dados) na Europa ou a LGPD (Lei Geral de Proteção de Dados) no Brasil.
+
+Minimização de Dados: Coletar e armazenar apenas os dados necessários para a operação, reduzindo o risco em caso de violação de dados.
+
+Conclusão
+Projetar um banco de dados seguindo esses pilares garante que as informações críticas sejam protegidas contra acessos não autorizados, mantidas em seu estado correto e disponíveis quando necessário. A implementação dessas práticas de segurança é essencial para proteger a integridade dos dados e para garantir a confiança dos clientes e da empresa na infraestrutura de TI. Se precisar de mais detalhes ou orientações sobre como aplicar esses conceitos em sua infraestrutura específica, estou à disposição!
